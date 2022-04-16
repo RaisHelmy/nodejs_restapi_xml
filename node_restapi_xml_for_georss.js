@@ -1,6 +1,5 @@
 var request = require('request');
 const express = require("express");
-//const xml = require("xml");
 const app = express();
 
 var headers = {
@@ -21,9 +20,9 @@ function callback(error, response, body) {
           res.status(200).send(data);
         });
     }
-}
+};
 
-request(options, callback);
+setInterval(function(){request(options, callback);},1000);
 
 app.listen(6789, () => {
   console.log("Server is running on port 6789");
