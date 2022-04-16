@@ -1,0 +1,28 @@
+{
+  "name": "nodejs_restapi_xml",
+  "version": "1.0.0",
+  "description": "This is for georss where we send raw curl rest api get request and receive the json format, then convert to xml and then stream the xml through continues request",
+  "main": "node_restapi_xml_for_georss.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "georss",
+    "restapi",
+    "curl"
+  ],
+  "author": "rais helmy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "node-libcurl": "^2.3.4",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "xml": "^1.0.1",
+    "xmlbuilder2": "^3.0.2"
+  }
+}
