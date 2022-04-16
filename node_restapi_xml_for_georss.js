@@ -19,7 +19,7 @@ function callback(error, response, body) {
             .ele('rss', {'xmlns:georss': 'http://www.georss.org/georss'})
               .ele('channel')
                 .ele('title').txt('GeoServer Feed').up()
-                .ele('link').txt('ttp://localhost:8081/v1/georss').up()
+                .ele('link').txt('http://localhost:8081/v1/georss').up()
                 .ele('description').txt('GeoServer Feed').up()
                 .ele('item')
                   .ele('name').txt(json_body["device_name"]).up()
