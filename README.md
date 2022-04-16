@@ -28,7 +28,7 @@ Stream restapi through xml
 
 ### Yarn:
 ```bash
-  yarn add request express
+  yarn add request express xmlbuilder2
 ```
 
 
